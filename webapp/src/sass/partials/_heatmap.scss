@@ -1,0 +1,91 @@
+
+#heatmap-title{
+	display: flex;
+	flex: 0 0 100%;
+}
+
+
+// Heatmap
+#heatmap-wrapper{
+	display: flex;
+	flex: 0 0 100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	flex-flow: row wrap;
+	background-color: white;
+	align-items: flex-start;
+}
+
+
+
+.heatmap-line-number-div{
+	flex: 0 0 5%;
+	border: 1px solid black;
+}
+
+
+
+#heatmap-div{
+ 	display: flex;
+	flex: 0 0 100%;
+	flex-flow: row wrap;
+
+}
+
+
+#heatmap-container-div{
+	display: flex;
+	flex: 0 0 100%;
+	background-color: white;
+	flex-flow: row nowrap;
+	// border-right: 1px solid black;
+}
+
+
+
+.heatmap-line-and-chart-div{
+	display: flex;
+	flex: 0 0 70%;
+	flex-flow: row wrap;
+}
+
+.heatmap-main-div{
+	display: flex;
+	flex: 0 0 80%;
+	border: 1px solid black;
+}
+
+
+// Legend and Info
+.heatmap-legend-and-info-div{
+	display: flex;
+	flex: 0 0 30%;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+#heatmap-info{
+	display: flex;
+	flex: 0 0 auto;
+	flex-flow: row wrap;
+	// border: 1px solid black;
+	align-items: flex-start;
+	div{
+		display: flex;
+		flex: 0 0 100%;
+		// color: white;
+		padding: 0.5em;
+		font-size: 20pt;
+	}
+}
+
+// components
+.heatmap-legend-div{
+	display: flex;
+	flex: 0 0 auto;
+	padding: 1.2em;
+	// padding-top: 1em;
+	// padding-bottom: 1em;
+	// border: 1px solid black;
+	align-items: flex-start;
+}

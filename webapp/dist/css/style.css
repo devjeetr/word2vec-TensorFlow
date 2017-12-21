@@ -1,0 +1,125 @@
+#heatmap-title {
+  display: flex;
+  flex: 0 0 100%; }
+
+#heatmap-wrapper {
+  display: flex;
+  flex: 0 0 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  flex-flow: row wrap;
+  background-color: white;
+  align-items: flex-start; }
+
+.heatmap-line-number-div {
+  flex: 0 0 5%;
+  border: 1px solid black; }
+
+#heatmap-div {
+  display: flex;
+  flex: 0 0 100%;
+  flex-flow: row wrap; }
+
+#heatmap-container-div {
+  display: flex;
+  flex: 0 0 100%;
+  background-color: white;
+  flex-flow: row nowrap; }
+
+.heatmap-line-and-chart-div {
+  display: flex;
+  flex: 0 0 70%;
+  flex-flow: row wrap; }
+
+.heatmap-main-div {
+  display: flex;
+  flex: 0 0 80%;
+  border: 1px solid black; }
+
+.heatmap-legend-and-info-div {
+  display: flex;
+  flex: 0 0 30%;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+#heatmap-info {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row wrap;
+  align-items: flex-start; }
+  #heatmap-info div {
+    display: flex;
+    flex: 0 0 100%;
+    padding: 0.5em;
+    font-size: 20pt; }
+
+.heatmap-legend-div {
+  display: flex;
+  flex: 0 0 auto;
+  padding: 1.2em;
+  align-items: flex-start; }
+
+body {
+  padding: none;
+  margin: none;
+  background-color: #CBD2D0; }
+  body div {
+    background-color: #ffffff; }
+
+.x-grid line, .x-grid text {
+  stroke: #CBD2D0; }
+
+#header-area {
+  display: flex; }
+
+#chart-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 65%;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+#linegraph-div {
+  display: flex;
+  flex: 0 0 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+#heatmap-options, #options-div {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: space-around;
+  border: solid 1px #CBD2D0; }
+  #heatmap-options button, #options-div button {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    border: 0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5; }
+  #heatmap-options button:hover, #options-div button:hover {
+    opacity: 0.85;
+    cursor: pointer; }
+  #heatmap-options button:hover, #heatmap-options .active-button, #options-div button:hover, #options-div .active-button {
+    background-color: #235789;
+    color: #ffffff; }
+
+#barchart-div {
+  display: flex;
+  flex: 0 0 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+#options-div {
+  display: flex;
+  flex: 0 0 100%;
+  align-content: middle;
+  justify-content: center; }
+
+#content-area {
+  display: flex;
+  flex-direction: rows;
+  flex-wrap: wrap;
+  justify-content: space-around; }
